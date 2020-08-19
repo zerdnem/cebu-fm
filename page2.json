@@ -1,0 +1,93 @@
+{
+	"result": [
+		{
+			"name": "MOR Cebu 97.1 - DYLS-FM",
+			"description": "MOR Cebu 97.1 is a broadcast based radio station from Cebu City that plays Hot AC genre of music. DYLS FM MOR is among the fourteen My Only Radio FM radio stations in the country.",
+			"genre": ["DJ", "Rock"],
+			"listeners": 30,
+			"audio": "http://magic.radioca.st/stream"
+		},
+		{
+			"name": "Magic 92.3 Cebu - DYBN",
+			"description": "Magic 92.3 - DYBN 92.3 is a broadcast Radio station from Cebu City, Philippines, provides CHR, Top 40 hits, Pop Music and Talk radio Programs.",
+			"genre": [
+				"Adult Contemporary",
+				"Pop",
+				"Rock",
+				"Top 40"
+			],
+			"listeners": 30,
+			"audio": "http://203.82.37.242:8050/cbu923fm"
+		},
+		{
+			"name": "Power 89.1 FM Cebu - DYDW",
+			"description": "DYDW (89.1 FM), currently broadcasting as Power 89.1, is a music FM radio station owned by Word Broadcasting Corporation. The station's studio and transmitter is located at, University of San Carlos, P. del Rosario Street, Cebu City. Power 89.1 operates daily from 5:00am to 11:00pm. Power 89.1 is the format of the station is classical, pop, jazz and Christian music.",
+			"genre": ["Christian", "Religious", "Talk"],
+			"listeners": 30,
+			"audio": "http://stream.zenolive.com/amx5h6ev1reuv"
+		},
+		{
+			"name": "Nu107 Cebu Now Underground",
+			"description": "The Home of New Rock is Webcasting Live from the Queen City of the South. Cebu Philippines!!! Playing the  Best Rock Music allowed by Law.\n",
+			"genre": "",
+			"listeners": 0,
+			"audio": ""
+		},
+		{
+			"name": "Radio Cebu",
+			"description": "Radio Cebu is an internet radio station from Cebu City, Philippines, providing best Original Filipino Music.",
+			"genre": ["FIlipino", "Pop", "Talk"],
+			"listeners": 0,
+			"audio": ""
+		},
+		{
+			"name": "Energy FM Cebu 94.7 - DYKT",
+			"description": "Energy FM Cebu 94.7 - DYKT is a broadcast radio station from Cebu City, Philippines providing information, news, public service and wholesome entertainment.",
+			"genre": ["Entertainment", "FIlipino", "Hits", "Pop"],
+			"listeners": 0,
+			"audio": ""
+		},
+		{
+			"name": "RMN Cebu - DYHP",
+			"description": "We are RMN, the countrys leading nationwide radio network.RMN is committed to uphold our brand of excellence and continuously strive to provide the most comprehensive media service to our listeners and the best creative advertising to our clientele.Our AM stations deliver public service that is truly responsive and results-oriented while our FM stations provide happy entertainment to its listeners.",
+			"genre": ["Adult Contemporary", "Public"],
+			"listeners": 0,
+			"audio": ""
+		},
+		{
+			"name": "89.9 MemoRieS FM Cebu - DYKI",
+			"description": "MemoRieS FM 89.9 DYKI is a music FM station owned by Primax Broadcasting Network. The station used to be an affiliate of Raven Broadcasting Corporation in Manila. It was known as City Lite 89.9. In early 2000, the station ceased to be an affiliate as Raven Broadcasting Corporation changed hands. 89.9 changed name but continued playing the smooth jazz format.",
+			"genre": [
+				"Adult Contemporary",
+				"Music",
+				"Pop",
+				"Top 40"
+			],
+			"listeners": 0,
+			"audio": "http://176.31.107.8:8023/stream/;"
+		},
+		{
+			"name": "Yes! The Best Cebu - DYHR",
+			"description": "Yes! The Best Cebu - DYHR is a Filipino radio station that broadcasts from Cebu City, Philippines. Its programming is focused on News, Entertainment, Information, Radio Dramas, Public Affairs programs, and also the best National and International Music hits.",
+			"genre": [
+				"Adult Contemporary",
+				"Drama",
+				"Entertainment",
+				"Hits",
+				"Information",
+				"Music",
+				"News"
+			],
+			"listeners": 0,
+			"audio": "http://falcon.shoutca.st:8500/stream/;"
+		},
+		{
+			"name": "Brigada News FM Cebu - DYWF",
+			"description": "93.1 Brigada News FM - DYWF is a broadcast radio station from Cebu City,  Philippines, providing News, Talk, and Adult Contemporary Top 40 music.\n\n------\nShows: Smash Afternoon Drive, Cool Change, Smash Day Break, Smash Morning Drive, Smash Saturday Night, Smash Top Forty, Sunday Sundown, Sundown, Voice of America",
+			"genre": ["News", "Talk"],
+			"listeners": 0,
+			"audio": ""
+		}
+	],
+	"count": 10
+}
