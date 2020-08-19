@@ -4,7 +4,7 @@ const request = require("request");
 const cheerio = require("cheerio");
 
 const query = "query=Cebu%20City";
-const page = '0'
+const page = '3'
 const rp = promisify(request);
 const wfsp = promisify(writeFileSync);
 const options = {
@@ -35,14 +35,15 @@ async function parseData(data) {
 	const stations = data.hits;
 	for (var i = 0; i < stations.length; i++) {
 		const station = stations[i];
-		const name = station.name;
-		const image = station.logo_original_url;
+		const id = station.id;
+		const title = station.name;
+		const largeimage = station.logo_url_original;
 		const description = station.description;
 		const genre = station.genre;
 		const listeners = station.popularity;
 		const slug = station.slug
-		const audio = await getAudioStream(slug);
-		result.push({name,image,description,genre,listeners,audio})
+		const mp3file = await getAudioStream(slug);
+		result.push({id,slug,title,largeimage,description,genre,listeners,mp3file})
 	}
 	return result
 }
@@ -52,5 +53,5 @@ async function parseData(data) {
 	const {body} = await rp(options);
 	const result = await parseData(body); 
 	console.log(result)
-	await wfsp('page1.json', JSON.stringify({result,count:result.length}));
+	await wfsp('page4.json', JSON.stringify({result,count:result.length}));
 })()
